@@ -7,6 +7,8 @@ public class EnemySpawner : MonoBehaviour
 {
 	public GameObject enemyPrefab;      // 利 橇府普
 	public float spawnInterval;         // 积己 埃拜
+	
+
 
 	private void Start()
 	{
