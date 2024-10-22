@@ -62,6 +62,9 @@ public class Enemy : MonoBehaviour
 	public float damageInterval = 1000f;    // 데미지 간격
 	private float preDamageTime = 0;    // 이전에 데미지를 준 시간(Time.time)
 
+
+
+
 	private void OnCollisionStay2D(Collision2D collision)
 	{
 		// 플레이어에게 데미지 주는 간격 조정하기
